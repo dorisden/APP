@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-screen">
+            <h1>Bienvenido al Desafio Final 2.0</h1>
+            <img src="jaguar.jpg" alt="Imagen de Inicio" style="width: 200px; height: 150px;">
+             <button id="login-btn">Iniciar</button>
+        </div>
+        <div class="login-screen hidden">
+            <h2>Iniciar Sesión</h2>
+            
+            <input type="text" id="username" placeholder="Nombre de Usuario">
+            <input type="password" id="password" placeholder="Contraseña">
+            <button id="submit-login">Iniciar Sesión</button>
+        </div>
+        <div class="registration-screen hidden">
+            <h2>Registro de Equipo</h2>
+            <input type="text" id="team-name" placeholder="Nombre del Equipo">
+            <input type="text" id="participant-name" placeholder="Nombre del Participante">
+            <button id="add-participant">Agregar Participante</button>
+            <button id="register-team">Registrar Equipo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
